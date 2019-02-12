@@ -34,7 +34,7 @@ function request(e){
 		city = city2.value;
 	}
 
-	fetch('http://api.openweathermap.org/data/2.5/weather?q='+city+'&units=metric&appid=5a54f8a332ac50f8372c4bfbb4bf4c10', {mode:'cors'}).then(function(response){
+	fetch('https://api.openweathermap.org/data/2.5/weather?q='+city+'&units=metric&appid=5a54f8a332ac50f8372c4bfbb4bf4c10', {mode:'cors'}).then(function(response){
 		return response.json();
 	}).then(function(res){
 		dataJson = res;
