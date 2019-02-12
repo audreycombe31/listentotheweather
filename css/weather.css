@@ -1,0 +1,186 @@
+/* WEATHER CSS */
+
+html, body, #wrapper, #weather, #weatherImg{
+    width: 100%;
+    height: 100%;
+}
+
+body, #wrapper, #weatherHeader, #rightHeader, #leftHeader, #weatherContainer, #weatherImg{
+    display: flex;
+}
+
+body, #wrapper, #weatherHeader{
+    flex-direction: column;
+}
+
+#weatherHeader, #weatherImg, #weatherContainer{
+    flex-direction: row;
+}
+
+#weather, #sunImg, .weatherCloudImg, .dropImg, .flakeImg{
+    position: absolute;
+}
+
+.backSun{
+    background-color: rgb(255, 243, 202);
+}
+
+.backRain{
+    background-color: rgb(242, 135, 98);
+}
+
+.backCloud{
+    background-color: rgb(249, 222, 231);
+}
+
+.backSnow{
+    background-color: rgb(164, 193, 192);
+}
+
+/* HEADER */
+#weatherHeader{
+    height: 15%;
+    width: 96%;
+    margin: 12px 2% 0px 2%;
+}
+
+#rightHeader, #leftHeader{
+    width: 50%;
+}
+
+#leftHeader, .weatherSunImg, .weatherSnowImg{
+    direction: rtl;
+}
+
+#musicTitle{
+    font-size: 1.3em;
+    padding-top: 6px;
+    z-index: 10;
+}
+
+#weatherForm{
+    z-index: 10;
+}
+
+#weatherButtonForm, #weatherInputForm{
+    background: none;
+    outline: none;
+    font-family: 'slimjohn';
+}
+
+#weatherButtonForm,#weatherInputForm{
+    border: none;
+}
+
+#weatherInputForm{
+    height: 25px;
+    width: 160px;
+    font-size: 1.1em;
+    border-bottom: 1px solid black;
+}
+
+#weatherButtonForm{
+    padding-top: 5px;
+}
+
+/* CONTAINER */
+
+#weatherContainer{
+    height: 85%;
+}
+
+#thermometer, #deg{
+    margin-top: 1%;
+}
+
+#thermometer{
+    width: 9%;
+    margin-left: 12%;
+    z-index: 5;
+}
+#thermometer img{
+    height: 92%;
+}
+
+#deg{
+    font-size: 3em;
+    z-index: 10;
+    margin-left: 20px;
+}
+
+.weatherSunImg, .weatherSnowImg{
+    align-items: flex-end;
+}
+
+.weatherRainImg, .weatherCloudImg{
+    justify-content: center;
+}
+
+.weatherCloudImg{
+    height: 100%;
+}
+
+#snowImg, #cloudImg, .weatherCloudImg{
+    width: 100%;
+}
+
+#snowImg, #rainImg{
+    position: relative;
+}
+
+#rainImg{
+    margin-top: 14%;
+    width: 73%;
+    animation: umbrellaArrival 3s ease;
+}
+
+.small-element{
+    display: none;
+}
+
+.dropImg, .flakeImg{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+
+#wave{
+    width: 300px;
+    height:100px;
+}
+
+.cls-1 {
+    stroke-dasharray: 170;
+    stroke-dashoffset: 170;
+    stroke-width: 2px;
+    animation: waveAnim 4s linear infinite;
+}
+
+@media ( max-width : 768px ){
+    #sunImg, #snowImg{
+        margin-left: -1000px;
+    }
+    #snowImg, #cloudImg, #rainImg{
+        width: 1000px;
+    }
+     #sunImg{
+        width: 700px;
+    }
+    #rainImg{
+        margin-left: -180px;
+    }
+    #cloudImg{
+        margin-left: -530px;
+    }
+    #deg{
+     margin-left: 90px;
+     z-index: 10;
+    }
+    .flakeImg{
+        width: 186%;
+    }
+    .dropImg{
+        width: 326%;
+    }
+}

@@ -1,0 +1,166 @@
+var dataMusic = {
+	"sun":
+	[
+		{
+			"id" : "sun_01",
+			"name":"Muggo Jerry - In the summertime",
+			"link":"https://www.youtube.com/embed/wvUQcnfwUUM?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 214000
+		},
+		{
+			"id" : "sun_02",
+			"name":"B.B. & Q. Band - On the Beat ",
+			"link":"https://www.youtube.com/embed/Sf6Bp8cnq6Q?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 357000
+		},
+		{
+			"id" : "sun_03",
+			"name":"Chemise - She Can't Love You",
+			"link":"https://www.youtube.com/embed/sKoBpDM9S8c?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 308000
+		},
+		{
+			"id" : "sun_04",
+			"name":"Polo & Pan - Zoom Zoom",
+			"link":"https://www.youtube.com/embed/hvEH6ASSXWI?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 186000
+		},
+		{
+			"id" : "sun_05",
+			"name":"Jorge Ben e Toquinho - Carolina Carol Bela",
+			"link":"https://www.youtube.com/embed/oBXfpFzTNCE?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 188000
+		},
+		{
+			"id" : "sun_06",
+			"name":"Jorge Ben Jor - Cade Tereza",
+			"link":"https://www.youtube.com/embed/NiDJr6duECw?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 210000
+		},
+		{
+			"id" : "sun_07",
+			"name":"Amadou & Mariam - Bofou Safou",
+			"link":"https://www.youtube.com/embed/6SJR81-JIwA?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 189000
+		},
+		{
+			"id" : "sun_08",
+			"name":"Joao Gilberto - So Danco Samba",
+			"link":"https://www.youtube.com/embed/hLrdMN0Ncls?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 177000
+		}
+	],
+
+	"rain":
+	[
+		{
+			"id" : "rain_01",
+			"name":"Emapea - Jazzy",
+			"link":"https://www.youtube.com/embed/itxXUEVENkE?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 181000
+		},
+		{
+			"id" : "rain_02",
+			"name":"Mammal Hands - Mansions Of Millions Of Years",
+			"link":"https://www.youtube.com/embed/hWrDI5eNDMc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 369000
+		},
+		{
+			"id" : "rain_03",
+			"name":"Ibrahim Maalouf - Doubts",
+			"link":"https://www.youtube.com/embed/l5pAN6_Hc28?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 213000
+		},
+		{
+			"id" : "rain_04",
+			"name":"La La Land - City of Stars (piano cover)",
+			"link":"https://www.youtube.com/embed/0VeCLEuLFYo?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 208000
+		},
+		{
+			"id" : "rain_05",
+			"name":"Chet Baker - Almost blue",
+			"link":"https://www.youtube.com/embed/z4PKzz81m5c?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 453000
+		},
+		{
+			"id" : "rain_06",
+			"name":"Chet Baker - I Fall In Love Too Easily",
+			"link":"https://www.youtube.com/embed/d4EAPS6Jd7o?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 206000
+		}
+	],
+
+	"cloud":
+	[
+		{
+			"id" : "cloud_01",
+			"name":"Bonobo - Migration",
+			"link":"https://www.youtube.com/embed/dquO_by8GI8?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 327000
+		},
+		{
+			"id" : "cloud_02",
+			"name":"Todd Baker – Mother & Child",
+			"link":"https://www.youtube.com/embed/8RemRw20vHE?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 149000
+		},
+		{
+			"id" : "cloud_03",
+			"name":"Bon Iver - Flume",
+			"link":"https://www.youtube.com/embed/LuQrLsTUcN0?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 218000
+		},
+		{
+			"id" : "cloud_04",
+			"name":"Stavroz - The Finishing",
+			"link":"https://www.youtube.com/embed/LKdnxBH031I?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 483000
+		},
+		{
+			"id" : "cloud_05",
+			"name":"Thycaline - Home",
+			"link":"https://www.youtube.com/embed/upA0cyMjRbA?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 315000
+		},
+		{
+			"id" : "cloud_06",
+			"name":"The Blaze - Territory",
+			"link":"https://www.youtube.com/embed/54fea7wuV6s?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 337000
+		},
+		{
+			"id" : "cloud_07",
+			"name":"James Booth - Silver Blaze",
+			"link":"https://www.youtube.com/embed/6kZk0VXo7hQ?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 466000
+		}
+	],
+	"snow":
+	[
+		{
+			"id" : "snow_01",
+			"name":"Sia - Ho ho ho",
+			"link":"https://www.youtube.com/embed/MGanJGGVSrw?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 207000
+		},
+		{
+			"id" : "snow_02",
+			"name":"Bobby Helms - Jingle Bell Rock",
+			"link":"https://www.youtube.com/embed/itcMLwMEeMQ?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 132000
+		},
+		{
+			"id" : "snow_03",
+			"name":"Nat King Cole - The Christmas Song",
+			"link":"https://www.youtube.com/embed/hwacxSnc4tI?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 196000
+		},
+		{
+			"id" : "snow_04",
+			"name":"Dean Martin - Let it snow!",
+			"link":"https://www.youtube.com/embed/o2uvtl-1V70?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1",
+			"duration" : 196000
+		}
+	]
+};

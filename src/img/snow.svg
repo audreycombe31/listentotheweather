@@ -1,0 +1,31 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 147.28">
+    <defs><style>.color{fill:#59222a;}
+    .snowElement1{
+        animation:mountainArrival 4s ease;
+    }
+    .snowElement2{
+        animation:mountainArrival 5s linear;
+    }
+    .snowElement3{
+        animation:mountainArrival 3s ease-in;
+    }
+    .snowElement4{
+        animation:mountainArrival 6s ease-in-out;
+    }
+    .snowElement5{
+        animation:mountainArrival 5s ease-out;
+    }
+    @keyframes mountainArrival {
+        0%{transform: translateY(200%);}
+        100%{transform: translateY(0);}
+    }</style></defs>
+    <title>snow</title>
+    <polygon class="color snowElement1" points="61.54 146.87 155.45 0 249.69 146.87 61.54 146.87"/>
+    <polygon class="color snowElement2" points="0 146.72 67.02 31.37 134.29 146.72 0 146.72"/>
+    <polygon class="color snowElement3" points="131.69 146.57 199.88 29.23 268.31 146.57 131.69 146.57"/>
+    <polygon class="color snowElement4" points="177.88 146.87 234.66 49.16 291.63 146.87 177.88 146.87"/>
+    <polygon class="color snowElement5" points="200 146.87 283.58 3.02 367.46 146.87 200 146.87"/>
+    <polygon class="color snowElement1" points="230.79 146.87 314.37 3.02 398.26 146.87 230.79 146.87"/>
+    <polygon class="color snowElement2" points="300.32 147.28 367.35 31.93 399.92 87.9 399.79 146.5 300.32 147.28"/>
+    <polygon class="color snowElement3" points="344.36 146.5 400 49.31 399.79 146.5 344.36 146.5"/>
+</svg>

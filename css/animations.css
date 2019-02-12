@@ -1,0 +1,30 @@
+@keyframes umbrellaArrival {
+    from {bottom: -500px;}
+    to {bottom: 0;}
+}
+
+@keyframes cloudArrival {
+    0%{right: -90%;}
+    100%{right:140%;}
+}
+
+@keyframes mountainArrival {
+    0%{bottom: -400px;}
+    100%{bottom:0;}
+}
+
+@keyframes sunArrival {
+    0%{
+    	bottom: -500px;
+    }
+    100%{
+    	bottom:0;
+    	right:0;
+    }
+}
+
+@keyframes waveAnim {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}

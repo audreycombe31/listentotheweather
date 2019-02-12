@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name= "viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<title>LISTEN TO THE WEATHER</title>
+		<link rel="icon" href="src/sun.png"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/animations.css">
+		<link rel="stylesheet" type="text/css" href="css/weather.css">
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+	</head>
+
+	<body data-weather="">
+	<!-- HOME -->
+	<div id="home" class="">
+		<div id="background" class="backImage">
+		</div>
+		<div id="container" >
+			<h1 id="whereTitle"> WHERE ARE YOU ?</h1>
+			<form method="post" id="form" name="form">
+				<div>
+					<input id="inputForm" type="text" placeholder="Enter your city" autocomplete="off"/>
+					<img id="error1" class="error" src="src/img/error.svg" alt="error">
+				</div>
+				<input id="buttonForm" class="button visible" type="submit" value="OK"/>
+			</form>
+
+
+			<!-- LOAD -->
+			<h2 id="loadTitle" class="display">LISTEN TO THE WEATHER</h2>
+			<svg id="wave" data-name="Layer 1" class="display" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.08 16.75">
+			<defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;}</style></defs>
+			<title>wave</title>
+			<path class="cls-1" d="M1.71,6.09S5.09,17.27,10.6,17.36,20.93,1.76,25.67,1.61,35.83,17.27,40.91,17.36,50.48,1.52,56.24,1.6s11.6,14.48,11.6,14.48" transform="translate(-1.23 -1.1)"/>
+		</svg>
+		</div>
+	</div>
+
+	<!-- WEATHER -->
+	<div id="weather" class="display">
+		<iframe id="musicIframe" width="0" height="0" src="" frameborder="0" allowfullscreen></iframe>
+		<div id="wrapper">
+
+			<div id="weatherHeader">
+				<div id="rightHeader">
+					<span id="musicTitle">Artiste - titre</span>
+				</div>
+				<div id="leftHeader">
+					<form method="post" id="weatherForm" name="form">
+						<img id="error2" class="error" src="src/img/error.svg" alt="error">
+						<input id="weatherInputForm" type="text" placeholder="Enter your city" autocomplete="off"/>
+						<input id="weatherButtonForm" class="" type="submit" value="OK"/>
+					</form>
+				</div>
+			</div>
+
+			<div id="weatherContainer">
+				<div id="thermometer">
+					<img id="thermo" src="src/img/thermo-cloud.svg" alt="thermometer">
+
+				</div>
+				<div id="deg">
+					<span>35°C</span>
+				</div>
+				<div class="weatherRainImg" id="weatherImg">
+					<img id="sunImg" src="src/img/sun.svg" alt="sun" class="image active">
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="js/weather.js"></script>
+	<script src="js/download.js"></script>
+	<script src="js/main.js"></script>
+	<script src="src/music/music.json" type="text/javascript"></script>
+	<script src="js/weather.js"></script>
+	</body>
+
+</html>
